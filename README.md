@@ -92,7 +92,3 @@ VideoConf is a robust video conferencing application that enables users to creat
 2. Click on the "Record" button to start recording.
 3. Save the recording for future reference.
 
-## Acknowledgments
-
-This project was developed following the tutorial from the [JS Mastery](https://www.youtube.com/c/JavaScriptMastery) channel. Special thanks to the JS Mastery team for their excellent tutorials and guidance.
-
