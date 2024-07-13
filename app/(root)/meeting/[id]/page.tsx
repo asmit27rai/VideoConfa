@@ -11,7 +11,7 @@ import Alert from '@/components/Alert';
 import MeetingSetup from '@/components/MeetingSetup';
 import MeetingRoom from '@/components/MeetingRoom';
 
-const Meeting = () => {
+const MeetingPage = () => {
   const { id } = useParams();
   const { isLoaded, user } = useUser();
   const { call, isCallLoading } = useGetCallById(id);
@@ -46,4 +46,4 @@ const Meeting = () => {
   );
 };
 
-export default Meeting;
+export default MeetingPage;

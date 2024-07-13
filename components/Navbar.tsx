@@ -1,7 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
-import MobileNav from "./MobileNav";
-import { SignedIn, UserButton } from "@clerk/nextjs";
+import Image from 'next/image';
+import Link from 'next/link';
+import { SignedIn, UserButton } from '@clerk/nextjs';
+
+import MobileNav from './MobileNav';
 
 const Navbar = () => {
   return (
@@ -15,13 +16,14 @@ const Navbar = () => {
           className="max-sm:size-10"
         />
         <p className="text-[26px] font-extrabold text-white max-sm:hidden">
-          VideoConf
+          YOOM
         </p>
       </Link>
       <div className="flex-between gap-5">
         <SignedIn>
-          <UserButton />
+          <UserButton afterSignOutUrl="/sign-in" />
         </SignedIn>
+
         <MobileNav />
       </div>
     </nav>
